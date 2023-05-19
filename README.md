@@ -66,7 +66,6 @@ yarn cypress
 ## Storybook
 
 To start the Storybook, run this command:
-Then we can run the E2E tests:
 
 ```bash
 npm run storybook
