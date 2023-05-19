@@ -1,5 +1,7 @@
 ![Preview](./preview.png)
 
+Click here to see the [DEMO](https://categories-lemon.vercel.app/)!
+
 ## Description
 
 Technologies used to build this project:
