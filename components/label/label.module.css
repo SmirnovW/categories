@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: var(--color-main-dark);
+    border: none;
+    cursor: pointer;
+    color: var(--color-white);
+    border-radius: 5px;
+}
+
+.container:focus {
+    outline: 3px solid var(--color-second-accent);
+}
+
+.icon {
+    width: 17px;
+    height: 17px;
+}

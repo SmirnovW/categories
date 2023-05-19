@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    border-radius: 10px;
+    background: var(--color-white);
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.padding-large {
+    padding: 30px;
+}
+
+.padding-medium {
+    padding: 20px;
+}
+
+.padding-small {
+    padding: 10px;
+}
+
+.padding-tiny {
+    padding: 5px;
+}
+
+.padding-zero {
+    padding: 0;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.align-start {
+    align-items: start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
