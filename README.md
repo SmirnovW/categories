@@ -3,17 +3,16 @@
 ## Description
 
 Technologies used to build this project:
- * [Next.js](https://nextjs.org/) - as a base framework to build the app.
- * [Zustand](https://github.com/pmndrs/zustand) - as state manager, because it is lighter and has less boilerplate code than Redux.
-P.S. Just a quick note, I want to clarify that my use of Zustand does not imply any lack of proficiency in working with Redux. Just wanted to make that clear 😉
- * [React Testing Library](https://testing-library.com/) - to write Unit tests.
- * [Cypress](https://www.cypress.io/) - to write E2E tests.
- * [Prettier](https://prettier.io/) - For code formatting.
- * [Typescript](https://www.typescriptlang.org/) - To have types in JS.
- * [Storybook](https://storybook.js.org/) - Storybook is a front-end workshop for building UI components.
- 
 
- 
+-   [Next.js](https://nextjs.org/) - as a base framework to build the app.
+-   [Zustand](https://github.com/pmndrs/zustand) - as state manager, because it is lighter and has less boilerplate code than Redux.
+    P.S. Just a quick note, I want to clarify that my use of Zustand does not imply any lack of proficiency in working with Redux. Just wanted to make that clear 😉
+-   [React Testing Library](https://testing-library.com/) - to write Unit tests.
+-   [Cypress](https://www.cypress.io/) - to write E2E tests.
+-   [Prettier](https://prettier.io/) - For code formatting.
+-   [Typescript](https://www.typescriptlang.org/) - To have types in JS.
+-   [Storybook](https://storybook.js.org/) - Storybook is a front-end workshop for building UI components.
+
 ## Getting Started
 
 First, install all dependencies:
@@ -39,8 +38,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 #### To run Unit tests
 
 ```bash
-npm run test 
-# or 
+npm run test
+# or
 yarn test
 ```
 
@@ -57,8 +56,8 @@ yarn dev
 Then we can run the E2E tests:
 
 ```bash
-npm run cypress 
-# or 
+npm run cypress
+# or
 yarn cypress
 ```
 
@@ -69,6 +68,6 @@ Then we can run the E2E tests:
 
 ```bash
 npm run storybook
-# or 
+# or
 yarn storybook
 ```

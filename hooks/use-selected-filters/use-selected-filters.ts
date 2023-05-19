@@ -1,7 +1,7 @@
-import { useStore } from "store";
+import { useStore } from 'store';
 
 export function useSelectedFilters(filterId: string) {
-  const { filters } = useStore();
+	const { filters } = useStore();
 
-  return Boolean(filters[filterId]);
+	return Boolean(filters[filterId]);
 }

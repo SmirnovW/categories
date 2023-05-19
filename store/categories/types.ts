@@ -1,8 +1,8 @@
-import { FilterItemType } from "store/types";
+import { FilterItemType } from 'store/types';
 
 export type CategoriesList = FilterItemType[];
 
 export interface CategoriesStore {
-  categories: CategoriesList;
-  setCategories: (categories: CategoriesList) => void;
+	categories: CategoriesList;
+	setCategories: (categories: CategoriesList) => void;
 }

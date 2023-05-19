@@ -1,25 +1,23 @@
 .big {
-    font-size: var(--font-size-big);
+	font-size: var(--font-size-big);
 }
 
 .medium {
-    font-size: var(--font-size-medium);
+	font-size: var(--font-size-medium);
 }
 
 .small {
-    font-size: var(--font-size-small);
+	font-size: var(--font-size-small);
 }
 
-
 .bold {
-    font-weight: var(--font-weight-bold);
+	font-weight: var(--font-weight-bold);
 }
 
 .normal {
-    font-weight: var(--font-weight-normal);
+	font-weight: var(--font-weight-normal);
 }
 
 .regular {
-    font-weight: var(--font-weight-regular);
+	font-weight: var(--font-weight-regular);
 }
-

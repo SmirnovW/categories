@@ -1,5 +1,5 @@
-import { Translations } from "constants/translations";
+import { Translations } from 'constants/translations';
 
 export function useTranslate() {
-  return (key: string) => Translations[key] || "";
+	return (key: string) => Translations[key] || '';
 }

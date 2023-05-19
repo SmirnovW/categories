@@ -1,1 +1,1 @@
-export { useSelectedSubFiltersAmount } from "./use-selected-sub-filters-amount";
+export { useSelectedSubFiltersAmount } from './use-selected-sub-filters-amount';

@@ -1,2 +1,2 @@
-import "@testing-library/jest-dom";
-jest.mock("zustand");
+import '@testing-library/jest-dom';
+jest.mock('zustand');

@@ -2,7 +2,6 @@ import { PersistStorage } from 'zustand/middleware';
 import { ApplicationStore } from 'store/types';
 import { StorageValue } from 'zustand/middleware/persist';
 import Router from 'next/router';
-import { ParsedUrlQuery } from 'querystring';
 
 export const STORAGE_NAME = 'url-storage';
 

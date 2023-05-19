@@ -1,1 +1,1 @@
-export { SelectedFilters } from "./selected-filters";
+export { SelectedFilters } from './selected-filters';

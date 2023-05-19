@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import styles from "./divider.module.css";
+import styles from './divider.module.css';
 
 type Props = {
-  color?: ColorType;
+	color?: ColorType;
 };
 
 /**
  * Divider Component
  */
-export const Divider: React.FC<Props> = ({ color = "black" }) => {
-  return <hr className={`${styles.divider} ${color}`} />;
+export const Divider: React.FC<Props> = ({ color = 'black' }) => {
+	return <hr className={`${styles.divider} ${color}`} />;
 };

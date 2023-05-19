@@ -1,54 +1,53 @@
 .container {
-    display: flex;
+	display: flex;
 }
 
 .label {
-    position: relative;
-    display: flex;
-    cursor: pointer;
+	position: relative;
+	display: flex;
+	cursor: pointer;
 }
 
 .labelText {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 .input {
-    z-index: 1;
-    cursor: pointer;
-    position: absolute;
-    opacity: 0;
-    width: 1em;
-    height: 1em;
+	z-index: 1;
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	width: 1em;
+	height: 1em;
 }
 .input:focus-visible + .control {
-    outline: 3px solid var(--color-second-accent);
+	outline: 3px solid var(--color-second-accent);
 }
 
 .input:checked + .control {
-    background-color: var(--color-main-accent);
-    border: 2px solid var(--color-main-accent);
-
+	background-color: var(--color-main-accent);
+	border: 2px solid var(--color-main-accent);
 }
 
 .input:checked + .control .icon {
-    display: block;
+	display: block;
 }
 
 .control {
-    display: block;
-    z-index: 2;
-    position: relative;
-    width: 17px;
-    height: 17px;
-    color: var(--color-white);
-    border: 2px solid var(--color-main-dark);
-    border-radius: 5px;
+	display: block;
+	z-index: 2;
+	position: relative;
+	width: 17px;
+	height: 17px;
+	color: var(--color-white);
+	border: 2px solid var(--color-main-dark);
+	border-radius: 5px;
 }
 
 .icon {
-    display: none;
-    width: 17px;
-    height: 17px;
-    margin-left: -2px;
-    margin-top: -2px;
+	display: none;
+	width: 17px;
+	height: 17px;
+	margin-left: -2px;
+	margin-top: -2px;
 }
