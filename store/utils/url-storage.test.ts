@@ -85,7 +85,7 @@ describe('urlStorage', () => {
 		expect(mockPush).toHaveBeenCalledWith(
 			{
 				pathname: '/',
-				query: '',
+				query: {},
 			},
 			'',
 			{
